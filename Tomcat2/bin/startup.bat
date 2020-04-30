@@ -1,5 +1,5 @@
-call setenv.bat
-set CATALINA_HOME=C:\Program Files\Apache Software Foundation\Tomcat 9.0
-set CATALINA_BASE=C:\Users\Lucas Berzava\git\crunchify\Tomcat2
+call ../../ide/adapt/setenv.bat
+set CATALINA_HOME=%TOMCAT_SERVER_LOC%
+set CATALINA_BASE=%INSTANCE_TWO_LOC%
 cd %CATALINA_HOME%\bin
 startup.bat
